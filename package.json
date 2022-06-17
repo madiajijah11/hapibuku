@@ -1,0 +1,21 @@
+{
+	"name": "hapi",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.js",
+	"scripts": {
+		"dev": "nodemon ./src/server.js",
+		"start": "node ./src/server.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@hapi/hapi": "^20.2.2",
+		"nanoid": "~3.1.22",
+		"nodemon": "^2.0.16"
+	},
+	"devDependencies": {
+		"eslint-plugin-n": "^15.2.3"
+	}
+}
